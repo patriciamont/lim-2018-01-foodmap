@@ -1,0 +1,16 @@
+body{
+    background: #000000
+}
+p{
+    font-family: 'Pacifico', cursive;
+   
+    color:#F1C40F;
+}
+img {
+    width: 30%;
+    margin-top: -195px;
+    margin-left: -290px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    }
