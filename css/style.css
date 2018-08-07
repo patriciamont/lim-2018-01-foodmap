@@ -2,11 +2,9 @@ body{
      background: #FBF705; 
     /*  background-image: url(https://i.ytimg.com/vi/Vrgyha1eifk/maxresdefault.jpg); */
 }
-p{
-    font-family: 'Pacifico', cursive;
-   
-    color:#2F2A09;
-}
+
+
+
 img {
     width: 30%;
     margin-top: -195px;
@@ -14,8 +12,4 @@ img {
     left: 50%;
     top: 50%;
     position: absolute;
-    }
-#map{
-    width: 500px;
-    height: 500px;
     }
