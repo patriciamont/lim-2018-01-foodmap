@@ -8,7 +8,7 @@ class Localizacion {
                  callback(); 
             })
         } else {
-            alert("tu navegador no soporta geolocalización")
+            alert("Este navegador no soporta geolocalización")
         }
     }
 }
