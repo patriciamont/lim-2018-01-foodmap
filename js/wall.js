@@ -1,23 +1,25 @@
-const btnSpecialty=document.getElementById('specialty');
-const btnEthnic=document.getElementById('ethnic');
-const btnBudget=document.getElementById('budget');
+alert('ya estas en wall')
+
+const btnEthnic = document.getElementById('ethnic');
+const btnBudget = document.getElementById('budget');
 
 
-
-const listSpecialty=()=>{
 fetch('../data/restaurants.json')
-.then(response=>
-response.json()).then(result=>{
-    console.log(result)
-})
+    .then(response =>
+        response.json())
+    .then(result => {
+        console.log(result[0].name);
+        let listRestaurant = result;
+        console.log(listRestaurant);
+    })
 
-}
+    /* listEconomico=listRestaurant.filter(economico=>"economico"==listRestaurant) */
 
 
 
 
-btnSpecialty.addEventListener('click',()=>{
-    listSpecialty();
+btnEthnic.addEventListener('click', () => {
+    listEthnic();
 })
 
 

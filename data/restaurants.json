@@ -1,41 +1,42 @@
 [
     {
-        "name":"lupita",
-        "kindOfFood":"carnes",
-        "ethnic":"criolla",
-        "budget":"economico"
-
-
+        "name": "lupita",
+        "ethnic": "criolla",
+        "budget": "economico"
     },
     {
-        "name":"men wa",
-        "kindOfFood":"china",
-        "ethnic":"china",
-        "budget":"economico"
-        
-
+        "name": "men wa",
+        "ethnic": "china",
+        "budget": "economico"
     },
     {
-        "name":"rocky´s",
-        "kindOfFood":"aves",
-        "ethnic":"peruana",
-        "budget":"economico"
-        
-
+        "name": "rocky´s",
+        "ethnic": "peruana",
+        "budget": "economico"
     },
     {
-        "name":"Maido",
-        "ethnic":"japonesa",
-        "budget":"lujo"
-        
-
+        "name": "Maido",
+        "ethnic": "japonesa",
+        "budget": "lujo"
     },
     {
-        "name":"Maras",
-        "kindOfFood":"criolla",
-        "ethnic":"peruana",
-        "budget":"lujo"
-        
-
+        "name": "Maras",
+        "ethnic": "peruana",
+        "budget": "lujo"
+    },
+    {
+        "name": "Bistrot",
+        "ethnic": "francesa",
+        "budget": "lujo"
+    },
+    {
+        "name": "Delifrance",
+        "ethnic": "francesa",
+        "budget": "lujo"
+    },
+    {
+        "name": "Taco Naco",
+        "ethnic": "mexicana",
+        "budget": "economico"
     }
 ]
