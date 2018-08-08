@@ -8,12 +8,33 @@ fetch('../data/restaurants.json')
     .then(response =>
         response.json())
     .then(result => {
+        debugger
+        result.forEach(element => {
+           console.log(element.name);
+            
+        });
         console.log(result[0].name);
         let listRestaurant = result;
         console.log(listRestaurant);
-    })
+        debugger
 
-    /* listEconomico=listRestaurant.filter(economico=>"economico"==listRestaurant) */
+        
+
+    }) 
+
+
+
+
+
+
+
+
+/* console.log(value);
+listRestaurant.forEach(function (element) {
+    console.log(element);
+
+}); */
+/* listEconomico=listRestaurant.filter(economico=>"economico"==listRestaurant) */
 
 
 
