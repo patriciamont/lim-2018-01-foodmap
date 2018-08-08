@@ -1,0 +1,41 @@
+[
+    {
+        "name":"lupita",
+        "kindOfFood":"carnes",
+        "ethnic":"criolla",
+        "budget":"economico"
+
+
+    },
+    {
+        "name":"men wa",
+        "kindOfFood":"china",
+        "ethnic":"china",
+        "budget":"economico"
+        
+
+    },
+    {
+        "name":"rocky´s",
+        "kindOfFood":"aves",
+        "ethnic":"peruana",
+        "budget":"economico"
+        
+
+    },
+    {
+        "name":"Maido",
+        "ethnic":"japonesa",
+        "budget":"lujo"
+        
+
+    },
+    {
+        "name":"Maras",
+        "kindOfFood":"criolla",
+        "ethnic":"peruana",
+        "budget":"lujo"
+        
+
+    }
+]
