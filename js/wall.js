@@ -1,26 +1,54 @@
-alert('ya estas en wall')
+
 
 const btnEthnic = document.getElementById('ethnic');
 const btnBudget = document.getElementById('budget');
+let cardRest = document.querySelector('.card-columns');
 
 
 fetch('../data/restaurants.json')
     .then(response =>
         response.json())
     .then(result => {
-        debugger
+
         result.forEach(element => {
-           console.log(element.name);
-            
+            /*  console.log(element.budget); */
+
         });
-        console.log(result[0].name);
+
         let listRestaurant = result;
-        console.log(listRestaurant);
-        debugger
 
-        
+        listRestaurant.forEach(element => {
+            /* console.log(element.budget);  */
+            showRestaurant(element.name, element.budget, element.ethnic,element.photo)
+        })
+    })
 
-    }) 
+showRestaurant = (name, budget, ethnic,photo) => {
+
+    cardRest.innerHTML +=
+        `<div class="card">
+    <img class="card-img-top" src="${photo}" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">${name}</h5>
+    
+  </div>
+</div>`
+
+
+}
+    /* const maxiCard=document.createElement("div");
+maxiCard.className="container mt-1"
+maxiCard.src="``"
+maxiCard.alt="Card imagen cap"
+const cardBody=document.createElement("div");
+cardBody.className= */
+
+
+
+
+/* <img class="card-img-top" src="..." alt="Card image cap"> */
+
+
 
 
 
@@ -39,9 +67,9 @@ listRestaurant.forEach(function (element) {
 
 
 
-btnEthnic.addEventListener('click', () => {
+/* btnEthnic.addEventListener('click', () => {
     listEthnic();
-})
+}) */
 
 
 
@@ -55,19 +83,4 @@ btnEthnic.addEventListener('click', () => {
         zoom: 8
       });
 } */
-/* 
-function initMap(){
-    const ubicacion=new Localizacion(()=>{
-        const options={
-            center:{
-                lat:ubicacion.latitude,
-                lng:ubicacion.longitude
-            },
-            zoom:15
-        }
-        var map=document.getElementById('map');
-        const mapa=new google.maps.Map(map,options);
-    });
-}   */
-
 

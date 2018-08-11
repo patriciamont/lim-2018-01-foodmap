@@ -1,42 +1,63 @@
 [
     {
-        "name": "lupita",
-        "ethnic": "criolla",
-        "budget": "economico"
+        "name": "Chicharronería Lupita",
+        "address":"Av.La Estación 428C",
+        "district":"Huaral",
+        "schedule":"De 6am - 2pm todos los días",
+        "description":"Amplio lugar, donde usted podrá disfrutar de los más exquisitos chicharrones acompañado con camote+sarsa criolla+cancha o mote + panes +café, saboreando de un delicioso desayuno Huaralino. Combo Personal S/.15.",
+        "photo":"../img/clupita.jpg"
+       
     },
     {
-        "name": "men wa",
-        "ethnic": "china",
-        "budget": "economico"
-    },
-    {
-        "name": "rocky´s",
-        "ethnic": "peruana",
-        "budget": "economico"
+        "name": "El rancho de Robertín",
+        "address":"Fundo El Rancho - Retes 051",
+        "district":"Huaral",
+        "schedule":"De 10am - 6pm todos los días",
+        "description":"Restaurant Campestre 'EL RANCHO DE ROBERTIN' les da la bienvenida, somos una organización dedicada a proporcionarle momentos de entretenimiento y esparcimiento familiar junto a los suyos.",
+        "photo":"../img/robertin.jpg"
+       
     },
     {
         "name": "Maido",
-        "ethnic": "japonesa",
-        "budget": "lujo"
+        "address":"Calle San Martin 3991",
+        "district":"Miraflores",
+        "schedule":"L-S de 12pm - 4pm y 7pm - 11pm y D 12:30 - 5pm",
+        "description":"Aquí el cocinero no es el protagonista, sino los ingredientes de primera calidad que le prometen al artista la creación de una obra única. Se busca que los clientes vivan una genuina aventura Nikkei. Esta maravillosa cocina es el reflejo de la influencia japonesa en la gastronomía peruana.",
+        "photo":"../img/maido.jpeg"
+       
     },
     {
-        "name": "Maras",
-        "ethnic": "peruana",
-        "budget": "lujo"
+        "name": " Restaurante Maras",
+        "address":"Calle Amador Merino Reyna 339",
+        "district":"San Isidro",
+        "schedule":"L-V de 12pm - 4pm y 7pm - 12am, Sáb 7pm - 12am y Dom 11am - 4pm",
+        "description":"Moderno y elegante, Maras brindamos como propuesta una experiencia gastronómica por la costa, sierra y selva del Perú, que respeta el producto, y a la vez, juega con texturas que no dejan de asombrar a su público.",
+        "photo":"../img/maras.jpg"
+       
     },
     {
-        "name": "Bistrot",
-        "ethnic": "francesa",
-        "budget": "lujo"
+        "name": " Restaurante  Provence Bistrot",
+        "address":"Real Plaza, Av. Garcilaso de la Vega 1337",
+        "district":"Cercado de Lima ",
+        "schedule":"L-D de 9am - 11pm",
+        "description":"Bistro se declara como un lugar de homenaje a la Pachamama, la Madre Tierra. Su espacioso y cómodo local permite el disfrute bajo techo y al aire libre, indistintamente. Cuenta con un atractivo mobiliario para facilitar la reunión con amigos, la familia o incluso por cuestione de negocios. Posee servicio de bar que brinda todo tipo de bebidas.",
+        "photo":"../img/provence.jpg"
+       
     },
     {
-        "name": "Delifrance",
-        "ethnic": "francesa",
-        "budget": "lujo"
+        "name": " Restaurante Delifrance",
+        "address":"982 Avenida Santa Cruz, Chacarilla-Santa Cruz",
+        "district":"Miraflores",
+        "schedule":"Mar-sáb 12pm - 11pm y Dom 12pm - 4pm",
+        "description":"Cocina francesa clásica con especialidades regionales; Escargots, Boeuf Bourguignon, Canard a l’orange, Choucroute, Andouilette, Sopa de pescado, Gratinado de mariscos, Salade nicoise y los tradicionales postres; Creme brulee, Mousse au chocolat, Crepes Suzette, Souffle glacee etc",
+        "photo":"../img/delifrance.jpg"
     },
     {
-        "name": "Taco Naco",
-        "ethnic": "mexicana",
-        "budget": "economico"
+        "name": " Restaurante Taco Naco",
+        "address":"Velasco Astete 2012",
+        "district":"Santiago de Surco",
+        "schedule":"Lun-sáb 12pm a 11pm ",
+        "description":"En El Taco Naco podrás disfrutar de los más ricos tacos, burritos, enchiladas, fajitas, quesadillas y mucho más, siempre acompañados del infaltable guacamole y un buen tequila. Un rinconcito mejicano para todos los cuates del Perú.",
+        "photo":"../img/taconaco.jpg"
     }
 ]

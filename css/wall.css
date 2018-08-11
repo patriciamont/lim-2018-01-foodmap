@@ -1,12 +1,12 @@
 body{
-    background: #211707; 
+    background: #F19E0D; 
 
     
 }
 
 h1{
     font-family: 'Pacifico', cursive;
-    color: #F19E0D;
+    color: black;
 }
 #map{
     width: 500px;
