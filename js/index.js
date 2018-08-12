@@ -1,5 +1,6 @@
 const timeOut=()=>{
 
-window.location='wall.html'
+window.location='wall.html';
+
 }
-setTimeout(timeOut,2000);
+setTimeout(timeOut,9000);

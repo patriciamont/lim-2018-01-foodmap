@@ -77,5 +77,41 @@
         "description":"En Arepa Café podrá disfrutar de las ricas arepas venezolanas y fusión peruana, ademas de nuestra deliciosa variedad de cafés y tés. Te esperamos.",
         "photo":"../img/arepacafe.jpg"
        
+    },
+    {
+        "name": "La Quinta",
+        "address":"jn. Loreto 615",
+        "district":"Ancon",
+        "schedule":"De 11:00 a.m. a 7:00 p.m. todos los días",
+        "description":"Somos el restaurante de Pesca del día & pastas artesanales",
+        "photo":"../img/laquinta.jpg"
+       
+    },
+    {
+        "name": "El Remanso Restaurant",
+        "address":"Mz.'M' Lt.'1' Condominio el Remanso de Santa Clara ",
+        "district":"Ate",
+        "schedule":"Martes a domingo de 10am - 9pm",
+        "description":"Dedicados a servir exquisitos pollos a la brasa y suculentas carnes parrillas.",
+        "photo":"../img/elremanso.jpg"
+       
+    },
+    {
+        "name": "Zoppi",
+        "address":" Jn. Chamaya 926",
+        "district":"Breña",
+        "schedule":"Lunes a sábado de 11am - 6pm",
+        "description":"Un estilo propio de pescados y mariscos que logrará satisfacer tu paladar, con un acogedor establecimiento.",
+        "photo":"../img/zoppi.jpg"
+       
+    },
+    {
+        "name": "MiraSol Restaurant",
+        "address":"Jr. Choquehuanca 209",
+        "district":"Chorrillos",
+        "schedule":"Martes a domingo de 11am - 5pm",
+        "description":"Un estilo propio de pescados y mariscos que logrará satisfacer tu paladar, con un acogedor establecimiento.",
+        "photo":"../img/mirasol.jpg"
+       
     }
 ]

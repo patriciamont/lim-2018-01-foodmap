@@ -1,11 +1,15 @@
+
+
 window.searchRestaurants=(listRestaurant,search)=>{
-    console.log(listRestaurant);
+    
    
     if(search!==''){
-        console.log(listRestaurant);
+     
+        /* console.log(search); */
         const restaurants=listRestaurant.filter(objRestaurant=>{
-            return objRestaurant.district.toUpperCase().indexOf(search.toUpperCase()) !== -1;
-            console.log(search);
+            
+            return objRestaurant.district.toUpperCase().indexOf(search.toUpperCase()) > -1;
+            
         })
         return restaurants;
        
@@ -18,3 +22,9 @@ window.searchRestaurants=(listRestaurant,search)=>{
 /* et rest=listRestaurant.forEach(element => {
     let districts=element.district;
 }); */
+
+function reload_page() {
+    window.location.reload();
+    data('')
+  }
+  
