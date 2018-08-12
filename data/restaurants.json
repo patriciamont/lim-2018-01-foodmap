@@ -59,5 +59,23 @@
         "schedule":"Lun-sáb 12pm a 11pm ",
         "description":"En El Taco Naco podrás disfrutar de los más ricos tacos, burritos, enchiladas, fajitas, quesadillas y mucho más, siempre acompañados del infaltable guacamole y un buen tequila. Un rinconcito mejicano para todos los cuates del Perú.",
         "photo":"../img/taconaco.jpg"
+    },
+    {
+        "name": "Segundo Muelle",
+        "address":"Av. Costa Verde s/n, Playa de las Cascadas",
+        "district":"Barranco",
+        "schedule":"De 6am - 2pm todos los días",
+        "description":"Somos reconocidos por nuestro sabor, frescura y creatividad en los platos. Una propuesta gastronómica que combina la cocina marina tradicional con distintas corrientes como la cocina criolla, oriental e italiana.",
+        "photo":"../img/segundomuelle.jpg"
+       
+    },
+    {
+        "name": "Arepa Café",
+        "address":"Av. Miguel Grau 624, Barranco",
+        "district":"Barranco",
+        "schedule":"De 9:00 a.m. a 10:00 p.m. todos los días",
+        "description":"En Arepa Café podrá disfrutar de las ricas arepas venezolanas y fusión peruana, ademas de nuestra deliciosa variedad de cafés y tés. Te esperamos.",
+        "photo":"../img/arepacafe.jpg"
+       
     }
 ]

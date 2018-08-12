@@ -2,74 +2,87 @@
 
 const btnEthnic = document.getElementById('ethnic');
 const btnBudget = document.getElementById('budget');
+const inputdistrict = document.getElementById('search');
+const btnSearch = document.getElementById('btnsearch');
 let cardRest = document.querySelector('.card-columns');
+const idModal=document.getElementById('modal');
+
+let districtRest = '';
+let search = '';
 
 
-fetch('../data/restaurants.json')
-    .then(response =>
-        response.json())
-    .then(result => {
 
-        result.forEach(element => {
-            /*  console.log(element.budget); */
+const data = (search) => {
+    fetch('../data/restaurants.json')
+        .then(response =>
+            response.json())
+        .then(result => {
 
-        });
-
-        let listRestaurant = result;
-
-        listRestaurant.forEach(element => {
-            /* console.log(element.budget);  */
-            showRestaurant(element.name, element.budget, element.ethnic,element.photo)
+            const restArray = searchRestaurants(result, search)
+            showRestaurant(restArray)
+            console.log(restArray);
         })
-    })
-
-showRestaurant = (name, budget, ethnic,photo) => {
-
-    cardRest.innerHTML +=
-        `<div class="card">
-    <img class="card-img-top" src="${photo}" alt="Card image cap">
-  <div class="card-body">
-    <h5 class="card-title">${name}</h5>
-    
-  </div>
-</div>`
 
 
 }
-    /* const maxiCard=document.createElement("div");
-maxiCard.className="container mt-1"
-maxiCard.src="``"
-maxiCard.alt="Card imagen cap"
-const cardBody=document.createElement("div");
-cardBody.className= */
 
 
+data('');
+
+showRestaurant = (restArray) => {
+    restArray.forEach(element => {
+
+        cardRest.innerHTML +=
+            `<div class="card">
+<img class="card-img-top" src=${element.photo} alt="Card image cap">
+<div class="card-body">
+<h5 class="card-title">${element.name}</h5>
+</div>
+</div>`
+/* 
+`<div class="modal" tabindex="-1" role="dialog">
+<div class="modal-dialog" role="document">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Modal title</h5>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      <p>${element.name}</p>
+    </div>
+    <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" data-dismiss="modal">Pedir ahora</button>
+    </div>
+  </div>
+</div>
+</div>` */
+
+    });
+
+}
+
+/* searchRestaurants=(district,search)=>{
+    console.log('buscar restaurante')
+}
+ */
+
+btnSearch.addEventListener('click', () => {
+    search = inputdistrict.value;
+
+    searchRestaurants(districtRest, search)
 
 
-/* <img class="card-img-top" src="..." alt="Card image cap"> */
+})
+idModal.addEventListener('click',(e)=>{
+    if(event.target.nodeName==="div"){
+
+        
+    }
+})
 
 
-
-
-
-
-
-
-
-
-/* console.log(value);
-listRestaurant.forEach(function (element) {
-    console.log(element);
-
-}); */
-/* listEconomico=listRestaurant.filter(economico=>"economico"==listRestaurant) */
-
-
-
-
-/* btnEthnic.addEventListener('click', () => {
-    listEthnic();
-}) */
 
 
 

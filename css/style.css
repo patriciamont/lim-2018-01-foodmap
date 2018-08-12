@@ -2,18 +2,6 @@ body{
      background: #FBF705; 
     /*  background-image: url(https://i.ytimg.com/vi/Vrgyha1eifk/maxresdefault.jpg); */
 }
-
-
-/* 
-img {
-    width: 30%;
-    margin-top: -195px;
-    margin-left: -290px;
-    left: 50%;
-    top: 50%;
-    position: absolute;
-    } */
-img{
-    background-size: cover;
-    position: fixed;
+center{
+    font-family: 'Poppins', sans-serif;
 }
