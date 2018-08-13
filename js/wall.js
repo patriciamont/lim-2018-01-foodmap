@@ -11,7 +11,7 @@ let search = '';
 const data = (search) => {
 
 
-  fetch('../data/restaurants.json')
+  fetch('data/restaurants.json')
     .then(response =>
       response.json())
     .then(result => {
