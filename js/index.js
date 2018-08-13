@@ -3,4 +3,4 @@ const timeOut=()=>{
 window.location='wall.html';
 
 }
-setTimeout(timeOut,9000);
+setTimeout(timeOut,2000);

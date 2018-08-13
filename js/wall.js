@@ -11,17 +11,17 @@ let search = '';
 const data = (search) => {
 
 
-    fetch('../data/restaurants.json')
-        .then(response =>
-            response.json())
-        .then(result => {
+  fetch('../data/restaurants.json')
+    .then(response =>
+      response.json())
+    .then(result => {
 
-            cardRest.innerHTML = '';
+      cardRest.innerHTML = '';
 
-            const restArray = searchRestaurants(result, search)
-            showRestaurant(restArray)
-            console.log(restArray);
-        })
+      const restArray = searchRestaurants(result, search)
+      showRestaurant(restArray)
+      console.log(restArray);
+    })
 
 
 }
@@ -29,10 +29,10 @@ const data = (search) => {
 showRestaurant = (restArray) => {
 
 
-    restArray.forEach(element => {
+  restArray.forEach(element => {
 
-        cardRest.innerHTML +=
-            `<div class="card">
+    cardRest.innerHTML +=
+      `<div class="card">
 <img class="card-img-top" src=${element.photo} alt="Card image cap">
 <div class="card-body">
 <h5 class="card-title">${element.name}</h5>
@@ -62,24 +62,24 @@ showRestaurant = (restArray) => {
 </div>
 
 `
-    });
+  });
 
 }
 
 btnSearch.addEventListener('click', () => {
 
-    search = inputdistrict.value;
-    /* dataRest('') */
+  search = inputdistrict.value;
+  /* dataRest('') */
 
-    data(search)
+  data(search)
 
 
 })
 idModal.addEventListener('click', (e) => {
-    if (event.target.nodeName === "div") {
+  if (event.target.nodeName === "div") {
 
 
-    }
+  }
 })
 
 /* 
