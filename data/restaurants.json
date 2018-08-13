@@ -113,5 +113,16 @@
         "description":"Un estilo propio de pescados y mariscos que logrará satisfacer tu paladar, con un acogedor establecimiento.",
         "photo":"../img/mirasol.jpg"
        
+    },
+    {
+        "name": "Roky´s",
+        "address":"Av. Miguel Grau 329 - Barranco",
+        "district":"Chorrillos, Barranco, La Molina, San Borja, Callao, Lurin, Pueblo Libre",
+        "schedule":"Martes a domingo de 11am - 5pm",
+        "description":"Un estilo propio de pescados y mariscos que logrará satisfacer tu paladar, con un acogedor establecimiento.",
+        "photo":"../img/mirasol.jpg"
+       
     }
+
 ]
+
