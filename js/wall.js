@@ -11,7 +11,7 @@ let search = '';
 const data = (search) => {
 
 
-  fetch('../data/restaurants.json')
+  fetch('https://patriciamont.github.io/lim-2018-01-foodmap/data/restaurants.json')
     .then(response =>
       response.json())
     .then(result => {
