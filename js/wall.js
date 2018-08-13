@@ -3,7 +3,7 @@ const btnBudget = document.getElementById('budget');
 const inputdistrict = document.getElementById('search');
 const btnSearch = document.getElementById('btnsearch');
 let cardRest = document.querySelector('.card-columns');
-const idModal = document.getElementById('modal');
+
 
 let districtRest = '';
 let search = '';
@@ -46,7 +46,7 @@ showRestaurant = (restArray) => {
         </div>
         <div class="modal-body">
           <h6>Dirección: ${element.address}</h6>
-          <h6>Dirección: ${element.schedule}</h6>
+          <h6>Horario: ${element.schedule}</h6>
           <h6 class="text-justify">Descripción: ${element.description}</h6>
         </div>
         <div class="modal-footer">
@@ -60,7 +60,6 @@ showRestaurant = (restArray) => {
 </div>
 </div>
 </div>
-
 `
   });
 
@@ -74,12 +73,6 @@ btnSearch.addEventListener('click', () => {
   data(search)
 
 
-})
-idModal.addEventListener('click', (e) => {
-  if (event.target.nodeName === "div") {
-
-
-  }
 })
 
 /* 
