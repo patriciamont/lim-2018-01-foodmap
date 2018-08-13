@@ -1,10 +1,6 @@
-
+body { padding-bottom: 70px; }
 
 h1{
     font-family: 'Poppins', sans-serif;
     color:#F6A607;
 }
-#map{
-    width: 500px;
-    height: 500px;
-    }
