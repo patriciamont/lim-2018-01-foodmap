@@ -34,7 +34,7 @@ showRestaurant = (restArray) => {
 
     cardRest.innerHTML +=
       `<div class="card">
-<img class="card-img-top" src=${element.photo} alt="Card image cap">
+<img class="card-img-top" src="https://patriciamont.github.io/lim-2018-01-foodmap/img/${element.photo}" alt="Card image cap">
 <div class="card-body">
 <h5 class="card-title">${element.name}</h5>
 <div class="container">
