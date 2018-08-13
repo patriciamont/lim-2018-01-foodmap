@@ -25,6 +25,7 @@ const data = (search) => {
 
 
 }
+window.onload=()=>{data('')}
 
 showRestaurant = (restArray) => {
 

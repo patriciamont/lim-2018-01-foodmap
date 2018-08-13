@@ -23,8 +23,4 @@ window.searchRestaurants=(listRestaurant,search)=>{
     let districts=element.district;
 }); */
 
-function reload_page() {
-    window.location.reload();
-    data('')
-  }
   
